@@ -1,0 +1,158 @@
+@function div($number) {
+    $value: 2;
+    $value: $number / $value;
+    @return $value;
+}
+
+.section {
+    position: relative;
+    z-index: 4;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    transform: translateY(250px);
+
+    .container {
+        border: 2px solid red;
+        max-width: 1100px;
+        // height: 3040px;
+        margin: 0 auto;
+        
+        .section__01 {
+            position: relative;
+            // max-width: 1200px;
+            height: 475px;
+            border: 1px solid blue;
+            margin-bottom: 100px;
+
+
+
+
+
+            .section__numb-01 {
+                position: absolute;
+                width: 120px;
+                height: 120px;
+                margin-top: 38px;
+    
+    
+                .section__01-n {
+                    font-size: 120px;
+                    font-weight: 700;
+                    line-height: 120px;
+                    color: #ffffff25;
+                }
+            }
+    
+            .section__01_content {  
+                position: absolute;
+                z-index: 10;
+
+                .section__desk {
+                    position: absolute;
+                    width: 632px;
+                    margin-left: 60px;
+                    margin-top: 70px;                
+                    border: 1px solid green;
+                    z-index: 9;
+                    
+                    
+                    .section__on_title {
+                        display: flex;
+    
+                        .section__line {
+                            width: 72px;
+                            height: 2px;
+                            background-color: #FBD784;
+                            margin-right: 10px;
+                            align-self: center;
+        
+                        }
+    
+                        .section__on_text {
+                            color: #FBD784;
+                            font-size: 18px;
+                            font-weight: 300;
+                            letter-spacing: 6px;
+                            align-self: center;
+                        }
+                    }
+    
+                    .section__title {
+    
+    
+                        .section__main_title {
+                            font-size: 64px;
+                            font-weight: 700;
+                            color: #ffffff;
+                            margin-top: 27px;
+                            margin-bottom: 27px;
+    
+                        }
+                    }
+    
+                    .section__subtitle {
+    
+                        .section__subtitle-p {
+                            font-size: 18px;
+                            font-weight: 300;
+                            line-height: 32px;
+                            color: #ffffff;
+                            margin-bottom: 27px;
+                        }
+                    }
+    
+                    .section__link-01 {
+                        
+                        
+                        .section__link_01 {
+                            display: flex;
+                            width: 114px;
+    
+    
+                            .section__link_text {
+                                color: #FBD784;
+                                font-size: 18px;
+                                font-weight: 300;
+                                margin-right: 16px;
+                                align-self: center;
+                            }
+    
+    
+                            .section__link_icon {
+                                align-self: center;
+    
+                            }
+                        }
+                    }
+    
+                }
+                
+                .section__img-01 {
+                    width: 383px;
+                    height: 475px;
+                    margin-left: 715px;
+                    // width: 475px;
+                    // height: 383px;
+                    // margin-left: 615px;
+
+                    .section__img_01 {
+                        width: 100%;
+                        height: 100%;
+                        
+
+                    }
+                }
+            }
+    
+    
+
+
+
+
+        }
+    }
+}
+
+
+
+

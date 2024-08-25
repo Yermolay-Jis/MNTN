@@ -1,0 +1,96 @@
+footer {
+    margin-bottom: 20px;
+
+    .container {
+        display: flex;
+        column-gap: 375px;
+        max-width: 1100px;
+        margin: 0 auto;
+
+
+        .footer__inf {
+            
+
+
+            .footer__text {
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 32px;
+                color: #ffffff;
+                margin-top: 24px;
+                margin-bottom: 154px;
+            }
+    
+            .footer__comment-p {
+                font-size: 18px;
+                line-height: 32px;
+                color: #ffffff25;
+                ;
+    
+            }
+        }
+
+        .footer__links {
+            display: flex;
+            column-gap: 27px;
+
+
+
+            .footer__link_blog {
+                display: flex;
+                flex-direction: column;
+                row-gap: 16px;
+                width: 200px;
+    
+                .footer__link_blog-title {
+                    font-size: 24px;
+                    font-weight: 300;
+                    line-height: 32px;
+                    color: #FBD784;
+    
+                }
+                .footer__link-blog {
+                    font-size: 18px;
+                    font-weight: 300;
+                    color: #ffffff;
+                    line-height: 32px;
+                    transition: all 0.2s ease-in;
+    
+                    &:hover {
+                        color: #ffffff8c;
+                    }
+                }
+            }
+    
+            .footer__link_more {
+                display: flex;
+                flex-direction: column;
+                row-gap: 16px;
+    
+                .footer__link_more-title {
+                    font-size: 24px;
+                    font-weight: 300;
+                    line-height: 32px;
+                    color: #FBD784;
+    
+                }
+                .footer__link-more {
+                    font-size: 18px;
+                    font-weight: 300;
+                    color: #ffffff;
+                    line-height: 32px;
+                    transition: all 0.2s ease-in;
+    
+                    &:hover {
+                        color: #ffffff8c;
+                    }
+                }
+            }
+
+        }
+
+
+
+
+    }
+}
